@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanctuaries of Pop Culture</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    /* 在这里写 CSS 样式 */
+    :root {
+      --bg-color: #111111;
+      --text-main: #EAEAEA;
+      --title-red: #CC0000;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* 头部区域 */
+    .hero {
+      text-align: center;
+      padding: 6rem 2rem 4rem;
+    }
+
+    .hero-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      color: var(--title-red);
+      font-size: clamp(2rem, 5vw, 4rem);
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .hero-quote {
+      font-style: italic;
+      color: #888;
+      margin-bottom: 3rem;
+      font-size: 1.1rem;
+    }
+
+    .video-placeholder {
+      width: 100%;
+      max-width: 800px;
+      aspect-ratio: 16/9;
+      background-color: #050505;
+      margin: 0 auto;
+      border: 1px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #555;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+
+    /* 前言区域 */
+    .statement {
+      max-width: 800px;
+      margin: 4rem auto 6rem;
+      padding: 0 2rem;
+      line-height: 1.8;
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      color: var(--title-red);
+      font-size: 2rem;
+      border-bottom: 1px solid #333;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+
+    /* 电影列表区域 */
+    .roster {
+      padding: 0 2rem;
+    }
+
+    .film-card {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      margin-bottom: 6rem;
+      border-bottom: 1px solid #222;
+      padding-bottom: 6rem;
+    }
+
+    @media (min-width: 768px) {
+      .film-card {
+        flex-direction: row;
+        align-items: flex-start;
+      }
+    }
+
+    .film-poster {
+      flex: 1;
+      max-width: 350px;
+      width: 100%;
+    }
+
+    .film-poster img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 1px solid #222;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.8);
+    }
+
+    .film-info {
+      flex: 2;
+    }
+
+    .film-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      color: var(--title-red);
+      font-size: 2.5rem;
+      margin: 0 0 0.5rem 0;
+      line-height: 1.2;
+    }
+
+    .film-director {
+      font-size: 1.1rem;
+      color: #888;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .pop-artifact {
+      display: inline-block;
+      background-color: #1a1a1a;
+      color: #EAEAEA;
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+      border-left: 3px solid var(--title-red);
+      letter-spacing: 0.5px;
+    }
+
+    .film-synopsis {
+      line-height: 1.8;
+      color: #bbb;
+      font-size: 1.05rem;
+    }
+
+    /* 底部区域 */
+    .footer {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: #666;
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+
+    .footer p {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <header class="hero">
+      <h1 class="hero-title">Sanctuaries of Pop Culture:<br/>A Millennium Flâneur’s Guidebook</h1>
+      <p class="hero-quote">"No destination. Just glowing screens, fading tracks, and the comfort of being nowhere at all."</p>
+      
+      <div class="video-placeholder">
+        <p>[ Trailer Video Embed Here ]</p>
+      </div>
+    </header>
+
+    <section class="statement">
+      <h2 class="section-title">The Manifesto of the Modern Flâneur</h2>
+      <p>Around the year 2000, everything was changing fast. Cities got bigger, the world got connected, yet somehow, people felt more alone than ever. The modern city wanderer wasn't taking romantic walks in the park anymore. Instead, they were killing time under glowing neon signs, hiding out in smoky karaoke rooms, or zoning out in front of old TV screens.</p>
+      <p>This film program is about how pop culture became our favorite hiding spot.</p>
+      <p>For the characters in these five movies, things like imported rock music, pirated VCDs, flashy brand names, and late-night bar jokes aren't just for fun. They are painkillers. When the real world gets too heavy, too boring, or too confusing, they use these pop culture symbols to build a temporary safe house. It might look like a cheap addiction to the outside world, but to them, it's a way to survive and find a little bit of poetry in the noise.</p>
+      <p>Welcome to the sanctuary.</p>
+    </section>
+
+    <section class="roster">
+      
+      <article class="film-card">
+        <div class="film-poster">
+          <img src="./image/train.jpg" alt="Mystery Train Poster">
+        </div>
+        <div class="film-info">
+          <h3 class="film-title">Mystery Train (1989)</h3>
+          <p class="film-director">Dir. Jim Jarmusch</p>
+          <div class="pop-artifact">Pop Artifact: Elvis Presley Mythology & Retro Rock 'n' Roll</div>
+          <p class="film-synopsis">Jun and Mitsuko, two teenage rock-and-roll pilgrims from Yokohama, arrive in a decaying Memphis in search of the ghost of Elvis Presley. Instead of a vibrant musical mecca, they find a desolate, sun-bleached ghost town. Wandering through dilapidated streets and a rundown hotel run by a slick night clerk, their journey is a deadpan, cool exploration of how foreign pop-culture myths often outshine the gritty, melancholic reality of their origins. They are the ultimate flâneurs, entirely consumed by the shadow of an idol.</p>
+        </div>
+      </article>
+
+      <article class="film-card">
+        <div class="film-poster">
+          <img src="./image/mahjong.jpg" alt="Mahjong Poster">
+        </div>
+        <div class="film-info">
+          <h3 class="film-title">Mahjong (1996)</h3>
+          <p class="film-director">Dir. Edward Yang</p>
+          <div class="pop-artifact">Pop Artifact: Western Brands & Hustle Culture</div>
+          <p class="film-synopsis">In the neon-drenched, rapidly Westernized landscape of 1990s Taipei, four young hustlers navigate a cynical underworld driven by cash and superficial pop symbols. Pop culture and foreign brand names are no longer just aesthetics; they are weapons, armor, and tools for manipulation in a dog-eat-dog society. Edward Yang’s ruthless masterpiece captures the moral vacuum of urban wanderers who worship at the altar of materialism, mistakenly believing that the glow of a westernized metropolis can cure their profound inner emptiness.</p>
+        </div>
+      </article>
+
+      <article class="film-card">
+        <div class="film-poster">
+          <img src="./image/unknown.jpg" alt="Unknown Pleasures Poster">
+        </div>
+        <div class="film-info">
+          <h3 class="film-title">Unknown Pleasures (2002)</h3>
+          <p class="film-director">Dir. Jia Zhangke</p>
+          <div class="pop-artifact">Pop Artifact: Pirated VCDs & Disco Beats</div>
+          <p class="film-synopsis">Caught in the rust-belt decay of Datong, China, two disaffected teenagers, Bin Bin and Xiao Ji, drift aimlessly through a landscape of abandoned factories and shifting social values. With no future in sight, they build a fragile sanctuary out of imported pop music, pirated action movies, and the cheap mimicry of cinematic gangsters. Jia Zhangke paints a devastatingly raw portrait of marginalized youth, illustrating how they use the relentless, low-fi noise of global pop culture as a cheap painkiller for their profound disillusionment.</p>
+        </div>
+      </article>
+
+      <article class="film-card">
+        <div class="film-poster">
+          <img src="./image/lost.jpg" alt="Lost in Translation Poster">
+        </div>
+        <div class="film-info">
+          <h3 class="film-title">Lost in Translation (2003)</h3>
+          <p class="film-director">Dir. Sofia Coppola</p>
+          <div class="pop-artifact">Pop Artifact: Karaoke, Neon Lights & Whiskey Commercials</div>
+          <p class="film-synopsis">High above the blinding, hyper-commercialized streets of Tokyo, Bob (a faded movie star) and Charlotte (a neglected young wife) cross paths in the sterile sanctuary of a luxury hotel bar. Surrounded by a language they don't speak and a culture they can't decode, the duo finds temporary refuge in late-night karaoke rooms and meaningless television shows. It is a tender, melancholy ode to the fleeting connections made by two lost souls floating gracefully in a sea of alienating pop-culture noise.</p>
+        </div>
+      </article>
+
+      <article class="film-card">
+        <div class="film-poster">
+          <img src="./image/waiting.jpg" alt="Waiting Alone Poster">
+        </div>
+        <div class="film-info">
+          <h3 class="film-title">Waiting Alone (2004)</h3>
+          <p class="film-director">Dir. Dayyan Eng</p>
+          <div class="pop-artifact">Pop Artifact: Bar-hopping & Urban Slang</div>
+          <p class="film-synopsis">Beneath the rapid modernization of early-2000s Beijing, aspiring writer and antique shop owner Chen Wen navigates the chaotic waters of unrequited love alongside a quirky group of friends. They use endless bar-hopping, witty banter, and cynical urban slang as a defense mechanism against the terrifying prospect of growing up. This romantic comedy cleverly deconstructs the "cool" facade of the modern urban flâneur, revealing how we often use the sanctuary of our social circles and pop-lingo to hide from our own deepest vulnerabilities.</p>
+        </div>
+      </article>
+
+    </section>
+
+    <footer class="footer">
+      <p>End of the tape. The wanderer logs out.</p>
+      <p>Curated by: [Your Name] | A Film Programming Project</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
